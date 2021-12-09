@@ -2,6 +2,14 @@
 
 This application was generated using JHipster 7.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.4.1](https://www.jhipster.tech/documentation-archive/v7.4.1).
 
+## Steps to create the app from scratch
+- mkdir `exploring_jhipster_with_postgres`
+- cd `exploring_jhipster_with_postgres`
+- run `jhipster`
+- run `jhipster jdl ./dvdrental-jdl.jh`
+- npm install
+- npm start
+
 ## Setting up PostgreSQL, `dvdrental` dataset and JDL
 - [JHipster Creating an App](https://www.jhipster.tech/creating-an-app/)
 - [JHipster JDL - JHipster Domain Language](https://www.jhipster.tech/jdl/intro)
