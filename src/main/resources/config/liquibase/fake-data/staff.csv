@@ -1,0 +1,11 @@
+id;staff_id;first_name;last_name;email;store_id;active;username;password;last_update;picture;picture_content_type;address_id
+1;66036;Gonzalo;Toy;Aniyah.Feil@gmail.com;33781;false;sexy parsing;Small Awesome Central;2021-12-08T09:56:33;../fake-data/blob/hipster.png;image/png;1
+2;16601;Haylee;Runolfsson;Addison_Roberts@gmail.com;16069;false;Dollar tan green;Automated microchip;2021-12-08T05:40:36;../fake-data/blob/hipster.png;image/png;2
+3;77890;Rollin;Senger;Xavier.Gaylord35@hotmail.com;85006;false;Outdoors withdrawal;bricks-and-clicks People's Legacy;2021-12-08T15:49:32;../fake-data/blob/hipster.png;image/png;3
+4;86746;Evangeline;Koss;Maia.Langosh@yahoo.com;58708;true;Jewelery;Agent Berkshire repurpose;2021-12-08T08:51:36;../fake-data/blob/hipster.png;image/png;4
+5;29317;Merl;Greenfelder;Aiyana97@gmail.com;13630;true;transmit Cambridgeshire Metrics;Vatu Chips markets;2021-12-08T09:52:17;../fake-data/blob/hipster.png;image/png;5
+6;46891;Emmet;Schneider;Enrico.Nikolaus@hotmail.com;81377;true;back-end exploit matrix;input Alabama Wisconsin;2021-12-08T01:29:44;../fake-data/blob/hipster.png;image/png;6
+7;50495;Nigel;Hand;Allen_Davis42@yahoo.com;71269;false;hacking Personal;Robust Bedfordshire;2021-12-08T03:32:52;../fake-data/blob/hipster.png;image/png;7
+8;2568;Johnathon;Fadel;Devan85@gmail.com;35184;true;Unions;deposit;2021-12-08T04:13:00;../fake-data/blob/hipster.png;image/png;8
+9;31403;Carolyn;Goldner;Sammie88@hotmail.com;80393;false;Associate application Swedish;Implemented Franc;2021-12-08T18:37:25;../fake-data/blob/hipster.png;image/png;9
+10;30348;Dario;Prosacco;Marlee_Mitchell24@gmail.com;12857;true;Fantastic;Health;2021-12-08T19:05:17;../fake-data/blob/hipster.png;image/png;10

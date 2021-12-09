@@ -1,0 +1,45 @@
+{
+  "name": "Inventory",
+  "fields": [
+    {
+      "fieldName": "inventoryId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "storeId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "film",
+      "otherEntityRelationshipName": "inventory",
+      "relationshipValidateRules": "required",
+      "relationshipName": "film"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "rental",
+      "otherEntityRelationshipName": "inventory",
+      "relationshipName": "rental"
+    }
+  ],
+  "entityTableName": "inventory",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["dvdrental"],
+  "changelogDate": "20211208235209"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Film",
+  "fields": [
+    {
+      "fieldName": "filmId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "releaseYear",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "rentalDuration",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "rentalRate",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "length",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "replacementCost",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "rating",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "specialFeatures",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fulltext",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "language",
+      "otherEntityRelationshipName": "film",
+      "relationshipValidateRules": "required",
+      "relationshipName": "language"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "filmActor",
+      "otherEntityRelationshipName": "film",
+      "relationshipName": "filmActor"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "filmCategory",
+      "otherEntityRelationshipName": "film",
+      "relationshipName": "filmCategory"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "inventory",
+      "otherEntityRelationshipName": "film",
+      "relationshipName": "inventory"
+    }
+  ],
+  "entityTableName": "film",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["dvdrental"],
+  "changelogDate": "20211208235206"
+}

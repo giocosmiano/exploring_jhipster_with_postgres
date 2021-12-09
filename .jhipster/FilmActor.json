@@ -1,0 +1,36 @@
+{
+  "name": "FilmActor",
+  "fields": [
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "actor",
+      "otherEntityRelationshipName": "filmActor",
+      "relationshipValidateRules": "required",
+      "relationshipName": "actor"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "film",
+      "otherEntityRelationshipName": "filmActor",
+      "relationshipValidateRules": "required",
+      "relationshipName": "film"
+    }
+  ],
+  "entityTableName": "film_actor",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["dvdrental"],
+  "changelogDate": "20211208235207"
+}

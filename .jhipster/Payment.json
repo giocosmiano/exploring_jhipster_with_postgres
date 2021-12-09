@@ -1,0 +1,53 @@
+{
+  "name": "Payment",
+  "fields": [
+    {
+      "fieldName": "paymentId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "paymentDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "payment",
+      "relationshipValidateRules": "required",
+      "relationshipName": "customer"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "staff",
+      "otherEntityRelationshipName": "payment",
+      "relationshipValidateRules": "required",
+      "relationshipName": "staff"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "rental",
+      "otherEntityRelationshipName": "payment",
+      "relationshipValidateRules": "required",
+      "relationshipName": "rental"
+    }
+  ],
+  "entityTableName": "payment",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["dvdrental"],
+  "changelogDate": "20211208235211"
+}

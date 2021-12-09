@@ -1,0 +1,26 @@
+{
+  "dvdrentalApp": {
+    "filmCategory": {
+      "home": {
+        "title": "Film Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Film Category",
+        "createOrEditLabel": "Create or edit a Film Category",
+        "notFound": "No Film Categories found"
+      },
+      "created": "A new Film Category is created with identifier {{ param }}",
+      "updated": "A Film Category is updated with identifier {{ param }}",
+      "deleted": "A Film Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Film Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Film Category"
+      },
+      "id": "ID",
+      "lastUpdate": "Last Update",
+      "film": "Film",
+      "category": "Category"
+    }
+  }
+}

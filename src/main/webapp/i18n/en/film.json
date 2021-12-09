@@ -1,0 +1,39 @@
+{
+  "dvdrentalApp": {
+    "film": {
+      "home": {
+        "title": "Films",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Film",
+        "createOrEditLabel": "Create or edit a Film",
+        "notFound": "No Films found"
+      },
+      "created": "A new Film is created with identifier {{ param }}",
+      "updated": "A Film is updated with identifier {{ param }}",
+      "deleted": "A Film is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Film {{ id }}?"
+      },
+      "detail": {
+        "title": "Film"
+      },
+      "id": "ID",
+      "filmId": "Film Id",
+      "title": "Title",
+      "description": "Description",
+      "releaseYear": "Release Year",
+      "rentalDuration": "Rental Duration",
+      "rentalRate": "Rental Rate",
+      "length": "Length",
+      "replacementCost": "Replacement Cost",
+      "rating": "Rating",
+      "lastUpdate": "Last Update",
+      "specialFeatures": "Special Features",
+      "fulltext": "Fulltext",
+      "language": "Language",
+      "filmActor": "Film Actor",
+      "filmCategory": "Film Category",
+      "inventory": "Inventory"
+    }
+  }
+}

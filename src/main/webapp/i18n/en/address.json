@@ -1,0 +1,34 @@
+{
+  "dvdrentalApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Address",
+        "createOrEditLabel": "Create or edit a Address",
+        "notFound": "No Addresses found"
+      },
+      "created": "A new Address is created with identifier {{ param }}",
+      "updated": "A Address is updated with identifier {{ param }}",
+      "deleted": "A Address is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "ID",
+      "addressId": "Address Id",
+      "address": "Address",
+      "address2": "Address 2",
+      "district": "District",
+      "postalCode": "Postal Code",
+      "phone": "Phone",
+      "lastUpdate": "Last Update",
+      "city": "City",
+      "customer": "Customer",
+      "staff": "Staff",
+      "store": "Store"
+    }
+  }
+}

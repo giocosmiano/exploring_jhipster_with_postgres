@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Rental.
+    -->
+    <changeSet id="20211208235212-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="inventory_id"
+                                 baseTableName="rental"
+                                 constraintName="fk_rental__inventory_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="inventory"/>
+
+        <addForeignKeyConstraint baseColumnNames="customer_id"
+                                 baseTableName="rental"
+                                 constraintName="fk_rental__customer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="customer"/>
+
+        <addForeignKeyConstraint baseColumnNames="staff_id"
+                                 baseTableName="rental"
+                                 constraintName="fk_rental__staff_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="staff"/>
+    </changeSet>
+</databaseChangeLog>

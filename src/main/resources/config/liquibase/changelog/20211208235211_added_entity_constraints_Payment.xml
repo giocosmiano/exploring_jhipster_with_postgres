@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Payment.
+    -->
+    <changeSet id="20211208235211-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="customer_id"
+                                 baseTableName="payment"
+                                 constraintName="fk_payment__customer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="customer"/>
+
+        <addForeignKeyConstraint baseColumnNames="staff_id"
+                                 baseTableName="payment"
+                                 constraintName="fk_payment__staff_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="staff"/>
+
+        <addForeignKeyConstraint baseColumnNames="rental_id"
+                                 baseTableName="payment"
+                                 constraintName="fk_payment__rental_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="rental"/>
+    </changeSet>
+</databaseChangeLog>

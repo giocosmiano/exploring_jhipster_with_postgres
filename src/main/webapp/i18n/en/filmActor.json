@@ -1,0 +1,26 @@
+{
+  "dvdrentalApp": {
+    "filmActor": {
+      "home": {
+        "title": "Film Actors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Film Actor",
+        "createOrEditLabel": "Create or edit a Film Actor",
+        "notFound": "No Film Actors found"
+      },
+      "created": "A new Film Actor is created with identifier {{ param }}",
+      "updated": "A Film Actor is updated with identifier {{ param }}",
+      "deleted": "A Film Actor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Film Actor {{ id }}?"
+      },
+      "detail": {
+        "title": "Film Actor"
+      },
+      "id": "ID",
+      "lastUpdate": "Last Update",
+      "actor": "Actor",
+      "film": "Film"
+    }
+  }
+}

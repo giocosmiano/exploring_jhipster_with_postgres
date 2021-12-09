@@ -1,0 +1,11 @@
+id;customer_id;store_id;first_name;last_name;email;activebool;create_date;last_update;active;address_id
+1;17974;98402;Robyn;Marquardt;Lawson_Greenfelder@gmail.com;true;2021-12-08;2021-12-08T19:14:48;63267;1
+2;61727;49921;Damian;Wilderman;Breanna.Frami31@gmail.com;true;2021-12-08;2021-12-08T16:52:50;61199;2
+3;81054;1585;Brando;Johnson;Vidal_Dietrich@hotmail.com;true;2021-12-08;2021-12-08T10:43:44;39244;3
+4;73750;63280;Alphonso;Schneider;Reta.Kessler@yahoo.com;false;2021-12-08;2021-12-08T17:17:11;41861;4
+5;77288;68188;Phoebe;Will;Thalia.Buckridge95@gmail.com;false;2021-12-08;2021-12-08T00:26:50;42849;5
+6;9354;23865;Margaretta;Stark;Elouise_Bradtke9@gmail.com;false;2021-12-08;2021-12-08T21:48:23;64089;6
+7;45505;78548;Madelynn;Wisozk;Raymond30@gmail.com;true;2021-12-08;2021-12-08T03:43:11;64810;7
+8;9009;76152;Pete;Emard;Darren.Bosco3@yahoo.com;true;2021-12-08;2021-12-08T19:48:15;70057;8
+9;22069;61273;Tomas;Russel;Dewayne_Osinski41@hotmail.com;false;2021-12-08;2021-12-08T18:50:32;93409;9
+10;18225;78489;Grace;Murazik;Lupe16@hotmail.com;true;2021-12-08;2021-12-08T12:32:22;59988;10
